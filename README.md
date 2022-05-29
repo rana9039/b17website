@@ -1,6 +1,6 @@
 # b17website
-> ## Chp1 (Introduction)
-  Here is an overview about the website folders and what is the aim of each one;
+ > ## Chp1 (Introduction)
+ Here is an overview about the website folders and what is the aim of each one;
    - b17
    - css
    - img
