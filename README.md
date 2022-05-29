@@ -1,7 +1,7 @@
 # b17website
 > ## Chp1 (Introduction)
  Here is an overview about the website folders and is the purpose of each one;
-   - 'b17'
+   - `b17`
    - css
    - img
    - 
