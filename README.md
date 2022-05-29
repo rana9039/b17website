@@ -1,4 +1,8 @@
 # b17website
 > ## Chp1 (Introduction)
-
-![project_all](https://user-images.githubusercontent.com/100317841/170892708-e22739f5-88d4-422b-9e0e-3d361ee5a5c0.png)
+  Here is an overview about the website folders and what is the aim of each one;
+   - b17
+   - css
+   - img
+   - 
+  ![project_all](https://user-images.githubusercontent.com/100317841/170894084-433713e6-cbbd-4645-8a34-1899772f0ad7.png)
