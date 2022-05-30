@@ -552,16 +552,45 @@ in the form there is 6 containers with the same class name `"form-group"` with a
           </div>
 ```
  > ### `login.html`
-  ####  section  
+  the same code like the `registration.html` with tha same idea about the background and the form;exept for 
+  #### go to link section 
+here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
   ```html
+  <a href="index.html" class="btn btn-google btn-user btn-with ">
+     <i class="fab fa-google fa-fw"></i> Login with Google
+  </a>
+  <a href="index.html" class="btn btn-facebook btn-user btn-with">
+     <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
+  </a>
+ ```
+ this links lead to `forget-password.html` page and `Create an Account!` leads to `register.html
+ ```html
+<div>
+   <a class="small mr-2" href="forgot-password.html">Forgot Password?</a>
+      </div>
+      <div >
+   <a class="small" href="register.html">Create an Account!</a>
+</div>
+```
 
 > ## Chp4 (Getting to start)
  > ### `blog.html`
-  ####  section  
+  #### header section
+  the same code like the navbar in the landing page exept for the breadcrumbs section that include the previous page / the current page
   ```html
-
+<section class="breadcrumbs">
+      <div class="container">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>POST</li>
+        </ol>
+        <h2>Posts</h2>
+      </div>
+    </section>
+```
+ 
  > ### `user_profile.html`
-  ####  section  
+  ####   section  
   ```html
 
  > ### `org_prof.html`
