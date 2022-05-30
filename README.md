@@ -588,26 +588,67 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
       </div>
     </section>
 ```
- 
- > ### `user_profile.html`
-  ####   section  
+  #### SDGS section
+  here display the SDGS lika a swiper wrapper by putting them in a class nmae `"clients-slider swiper"` in the the images of the SDGS 
   ```html
+<section id="clients" class="clients">
+      <div class="container" data-aos="fade-up">
+        <header class="section-header">   
+          <p>Pick Your Goal</p>
+        </header>
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/goals/1-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals//2-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/4-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/5-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/6-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/7-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/8-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/10-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/11-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/12-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/13-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/14-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/15-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/16-0١.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/goals/17-0١.png" class="img-fluid" alt=""></div>    
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+```
+ > ### `user_profile.html`
 
  > ### `org_prof.html`
-  ####  section  
-  ```html
-
-
+  
  > ### `messages.html`
-  ####  section  
+    here is the code for the left side of the page consirmes with the the search box by using `<button>` with a`<i>`. 
   ```html
-
-> ## Chp5 (Settings)
- > ### `setting.html`
-  ####  section  
-  ```html
-
- > ### `change-password.html`
-  ####  section  
-  ```html
-
+<div class="row no-gutters">
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
+              <div class="users-container">
+                <div class="chat-search-box">
+                  <div class="input-group">
+                    <input class="form-control" placeholder="Search" />
+                    <div class="input-group-btn">
+                      <button type="button" class="btn btn-success">
+                        <i class="fa fa-search"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+```
+and the list of chats like this code show one of the chat 
+```html
+<li class="person" data-chat="person1">
+                    <div class="user">
+                      <img src="img/29872073_2067948439900445_8967606419612576218_o.jpg" alt="Retail Admin" />
+                    </div>
+                    <p class="name-time">
+                      <span class="name">Ghada Elkhayat</span>
+                      <span class="time">15/02/2022</span>
+                    </p>
+                  </li>
+```
