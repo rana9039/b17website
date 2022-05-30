@@ -479,10 +479,78 @@ the lower one
 
 > ## Chp3 (registration)
  > ### `register.html`
-  ####  section  
+  #### background section 
+  here we use `<ul>` list and in it we use `<li>` empty to make the background animation and a `<div>` containing the class `"container"` to wirte the form body in it
   ```html
-
-
+<div class="area" >
+        <ul class="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+         <div class="container">...
+         </div>
+        </ul>
+    </div>
+```
+  #### form section 
+it is divided to 2 classes the first one containing the image in the left side of the form and the second one responsiple for the right side of the form; in it we make a `<form>` with class name `"user"` 
+in the form there is 6 containers with the same class name `"form-group"` with an `<input>` to take the data from the user with the same class attribute but differ in the placholder according to the data type that will be entered
+```html
+<div class="row">
+              <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
+              <div class="col-lg-7">
+                  <div class="p-5">
+                      <div class="text-center">
+                          <h1 class="h4 text-gray-900 mb-4">Create an Account!</h1>
+                      </div>
+                      <form class="user">
+                          <div class="form-group">
+                              <input type="text" class="form-control form-control-user" id="exampleFullName"
+                                  placeholder="Full Name">
+                          </div>
+                          <div class="form-group">
+                              <input type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                  placeholder="Email Address">
+                          </div>
+                          <div class="form-group">
+                              <input type="=tel" class="form-control form-control-user" id="examplePhone"
+                                  placeholder="Phone Number">
+                          </div>
+                          <div class="form-group row">
+                              <div class="col-sm-6 mb-3 mb-sm-0">
+                                  <input type="password" class="form-control form-control-user"
+                                      id="exampleInputPassword" placeholder="Password">
+                              </div>
+                              <div class="col-sm-6">
+                                  <input type="password" class="form-control form-control-user"
+                                      id="exampleRepeatPassword" placeholder="Repeat Password">
+                              </div>                             
+                          </div>
+                          <div class="form-group">
+                              <input type="text" class="form-control form-control-user" id="University"
+                                  placeholder="University">
+                          </div>
+                  </div>
+                          <a href="login.html" class="btn btn-user btn-block btn-main">
+                              Sign Up
+                          </a>    
+                      </form>
+                      <hr>
+              <div class="links">
+                  <div class="text-center">
+                      <a class="small mr-2" href="login.html">Already have an account? Login!</a>
+                  </div>
+              </div>
+                  </div>
+          </div>
+```
  > ### `login.html`
   ####  section  
   ```html
