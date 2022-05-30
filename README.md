@@ -20,7 +20,7 @@
   ![project_all](https://user-images.githubusercontent.com/100317841/170894084-433713e6-cbbd-4645-8a34-1899772f0ad7.png)
 
 > ## Chp2 (Landing page)
- > ### `index.html`
+ - > ### `index.html`
   #### header section (navigation bar) 
   ```html
 <header id="header" class="header fixed-top">
@@ -478,7 +478,7 @@ the lower one
  ```
 
 > ## Chp3 (registration)
- > ### `register.html`
+ - > ### `register.html`
   #### background section 
   here we use `<ul>` list and in it we use `<li>` empty to make the background animation and a `<div>` containing the class `"container"` to wirte the form body in it
   ```html
@@ -551,7 +551,7 @@ in the form there is 6 containers with the same class name `"form-group"` with a
                   </div>
           </div>
 ```
- > ### `login.html`
+ - > ### `login.html`
   the same code like the `registration.html` with tha same idea about the background and the form;exept for 
   #### go to link section 
 here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
@@ -574,7 +574,7 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
 ```
 
 > ## Chp4 (Getting to start)
- > ### `blog.html`
+ - > ### `blog.html`
   #### header section
   the same code like the navbar in the landing page exept for the breadcrumbs section that include the previous page / the current page
   ```html
@@ -619,11 +619,11 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
       </div>
     </section>
 ```
- > ### `user_profile.html`
+ - > ### `user_profile.html`
 
- > ### `org_prof.html`
+ - > ### `org_prof.html`
   
- > ### `messages.html`
+ - > ### `messages.html`
     here is the code for the left side of the page consirmes with the the search box by using `<button>` with a`<i>`. 
   ```html
 <div class="row no-gutters">
