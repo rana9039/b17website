@@ -45,8 +45,8 @@
 ```
 
    - hero section (here we make a class name contair that hold the whole page in it 2 classes the first one) :
-     -`"col-lg-6 d-flex flex-column justify-content-center"` that hold the left part of the page.
-     -`"col-lg-6 hero-img"` that hold the right part of the page.
+    -`"col-lg-6 d-flex flex-column justify-content-center"` that hold the left part of the page.
+    -`"col-lg-6 hero-img"` that hold the right part of the page.
    ```html
   <section id="hero" class="hero d-flex align-items-center">
 
