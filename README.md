@@ -478,4 +478,39 @@ the lower one
  ```
 
 > ## Chp3 (registration)
+ > ### `register.html`
+  ####  section  
+  ```html
+
+
+ > ### `login.html`
+  ####  section  
+  ```html
+
 > ## Chp4 (Getting to start)
+ > ### `blog.html`
+  ####  section  
+  ```html
+
+ > ### `user_profile.html`
+  ####  section  
+  ```html
+
+ > ### `org_prof.html`
+  ####  section  
+  ```html
+
+
+ > ### `messages.html`
+  ####  section  
+  ```html
+
+> ## Chp5 (Settings)
+ > ### `setting.html`
+  ####  section  
+  ```html
+
+ > ### `change-password.html`
+  ####  section  
+  ```html
+
