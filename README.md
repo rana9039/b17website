@@ -22,7 +22,7 @@
 > ## Chp2 (Landing page)
  - > ### `index.html`
   #### header section (navigation bar) 
-  it contain the navigation bar for the pages
+  it contain the navigation bar for the website pages ; we use a `<header>` in it we use 2 containers one for the logo by using `<a>` with `href` attribute so when we click on it, it goes to the landing page and the other container uses `<nav>` in it we use `<ul>` and `<li>` to make a list for the nav contents
   ```html
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -44,11 +44,10 @@
     </div>
   </header>
   ```
-  #### hero section 
-   here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
+  #### Main section 
+   the first page in the landing page or can be accessed by clicking om `Main` in navbar. here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
    ```html
   <section id="hero" class="hero d-flex align-items-center">
-
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
@@ -72,7 +71,7 @@
 
 ```
   #### About section
-  this section can be accessed by scrolling down or click on About button on navbar
+  this section can be accessed by scrolling down or click on About button on navbar. it conatins 2 containers; one for the right side of the page that use `<img>` ,and the other one for the left side that uses `<h3>` `<h2>` `<p>` to write the about idea. 
   ```html
 <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -127,7 +126,7 @@
     </section>
 ```
 #### featurs section
-  here its divided to 3 containers; the fisrt ne is `"section-header"` for the tittle 
+  here its divided to 3 containers; the fisrt one is `"section-header"` for the tittle 
  ```html
 <header class="section-header">
           <h2>Features</h2>
@@ -182,7 +181,7 @@
           </div>
         </div>
 ```
-  third one is `"row feture-tabs"` that is divided to 3 conatinersby the name `"tab-pane fade show " but differ in the `id=` attribute 
+  third one is `"row feture-tabs"` that is divided to 3 conatiners `ABSTRACT` `ASPIRATION` `BACKGROUND` by using `<ul>` `<li>` to make them as a list and giving each one `href` attribute so by clicking on it you will see the paragraph conserned with each one. and all take the same class name `"tab-pane fade show " but differ in the `id=` attribute 
  ```html
 <div class="row feture-tabs" data-aos="fade-up">
           <div class="col-lg-6">
@@ -198,8 +197,7 @@
               <li>
                 <a class="nav-link" data-bs-toggle="pill" href="#tab3">Background</a>
               </li>
-            </ul><!-- End Tabs -->
-            <!-- Tab Content -->
+            </ul>
             <div class="tab-content">
               <div class="tab-pane fade show active" id="tab1">
                 <p>This project focuses on some of the key trends and movements in our economy like adopting the sustainability mindset and contributing to the SDGs.
@@ -330,8 +328,8 @@ The main idea of the project is to create a mobile application that facilitates 
       </div>
     </section>
 ```
-####  Recent Blog Posts Section section (getstarted)
-  here it is consist of one container holding 2 other containers one for the student access abd the other for the organization 
+#### Getstarted section 
+  this section for the login and registration by clicking on the Getstarted link either for the student or the organization by using `<href>` attribute . here it is consist of one container holding 2 other containers one for the student access abd the other for the organization 
  ```html
 <section id="getstarted">
 <section id="recent-blog-posts" class="recent-blog-posts"> 
@@ -554,7 +552,7 @@ in the form there is 6 containers with the same class name `"form-group"` with a
 ```
  - > ### `login.html`
   the same code like the `registration.html` with tha same idea about the background and the form;exept for 
-  #### go to link section 
+  #### Login with section 
 here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
   ```html
   <a href="index.html" class="btn btn-google btn-user btn-with ">
