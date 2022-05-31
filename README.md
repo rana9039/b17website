@@ -45,7 +45,7 @@
   </header>
   ```
   #### Main section 
-   the first page in the landing page or can be accessed by clicking om `Main` in navbar. here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
+   the first page in the landing page or can be accessed by clicking om **Main** in navbar. here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
    ```html
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
@@ -71,7 +71,7 @@
 
 ```
   #### About section
-  this section can be accessed by scrolling down or click on About button on navbar. it conatins 2 containers; one for the right side of the page that use `<img>` ,and the other one for the left side that uses `<h3>` `<h2>` `<p>` to write the about idea. 
+  this section can be accessed by scrolling down or click on **About** button on navbar. it conatins 2 containers; one for the right side of the page that use `<img>` ,and the other one for the left side that uses `<h3>` `<h2>` `<p>` to write the about idea. 
   ```html
 <section id="about" class="about">
       <div class="container" data-aos="fade-up">
