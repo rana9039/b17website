@@ -22,6 +22,7 @@
 > ## Chp2 (Landing page)
  - > ### `index.html`
   #### header section (navigation bar) 
+  it contain the navigation bar for the pages
   ```html
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
