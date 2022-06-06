@@ -22,7 +22,7 @@
 
 # Chapter 2 
 ## Landing page
-   ### 3.1. `index.html`
+   ### 2.1. `index.html`
 - 	header section (navigation bar) 
     - it contain the navigation bar for the website pages ; we use a `<header>` in it we use 2 containers one for the logo by using `<a>` with `href` attribute so when we click on it, it goes to the landing page and the other container uses `<nav>` in it we use `<ul>` and `<li>` to make a list for the nav contents
   ```html
@@ -129,111 +129,109 @@
 ```
 - 	featurs section
     - here its divided to 3 containers; the fisrt one is `"section-header"` for the tittle 
-```html
-<header class="section-header">
-          <h2>Features</h2>
-          <p> Get To Know Some Of Our Features</p>
-        </header>
-```
-   second one is `"row"` that is divide to two part one contining the right side of the pages that contains the checked boxes and the left side that contains the image
- ```html
- <div class="row">
-          <div class="col-lg-6">
-            <img src="assets/img/4.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
-            <div class="row align-self-center gy-4">
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Responsive Design</h3>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Profiles for both the organizations and users </h3>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Posts feature to post the need for volunteer students, the tasks involved, and the specific skills needed for the task</h3>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Create agreement feature to save all the agreement contract details</h3>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Categories including all 17 SDGs in the form of tags to clarify what job contributes to what goal</h3>
-                </div>
-              </div>
-              <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
-                <div class="feature-box d-flex align-items-center">
-                  <i class="bi bi-check"></i>
-                  <h3>Feedback system to review both the students’ skills and the organizations’ program</h3>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-```
-   third one is `"row feture-tabs"` that is divided to 3 conatiners `ABSTRACT` `ASPIRATION` `BACKGROUND` by using `<ul>` `<li>` to make them as a list and giving each one `href` attribute so by clicking on it you will see the paragraph conserned with each one. and all take the same class name `"tab-pane fade show " but differ in the `id=` attribute 
- ```html
-<div class="row feture-tabs" data-aos="fade-up">
-          <div class="col-lg-6">
-            <h3>What Do We Aim?</h3>
-            <!-- Tabs -->
-            <ul class="nav nav-pills mb-3">
-              <li>
-                <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Abstract</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab2">Aspiration</a>
-              </li>
-              <li>
-                <a class="nav-link" data-bs-toggle="pill" href="#tab3">Background</a>
-              </li>
-            </ul>
-            <div class="tab-content">
-              <div class="tab-pane fade show active" id="tab1">
-                <p>This project focuses on some of the key trends and movements in our economy like adopting the sustainability mindset and contributing to the SDGs.
+      ```html
+      <header class="section-header">
+                <h2>Features</h2>
+                <p> Get To Know Some Of Our Features</p>
+              </header>
+      ```
+    - second one is `"row"` that is divide to two part one contining the right side of the pages that contains the checked boxes and the left side that contains the image
+      ```html
+      <div class="row">
+               <div class="col-lg-6">
+                 <img src="assets/img/4.jpg" class="img-fluid" alt="">
+               </div>
+               <div class="col-lg-6 mt-5 mt-lg-0 d-flex">
+                 <div class="row align-self-center gy-4">
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Responsive Design</h3>
+                     </div>
+                   </div>
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Profiles for both the organizations and users </h3>
+                     </div>
+                   </div>
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Posts feature to post the need for volunteer students, the tasks involved, and the specific skills needed for the task</h3>
+                     </div>
+                   </div>
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Create agreement feature to save all the agreement contract details</h3>
+                     </div>
+                   </div>
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Categories including all 17 SDGs in the form of tags to clarify what job contributes to what goal</h3>
+                     </div>
+                   </div>
+                   <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
+                     <div class="feature-box d-flex align-items-center">
+                       <i class="bi bi-check"></i>
+                       <h3>Feedback system to review both the students’ skills and the organizations’ program</h3>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+      ```
+    - third one is `"row feture-tabs"` that is divided to 3 conatiners `ABSTRACT` `ASPIRATION` `BACKGROUND` by using `<ul>` `<li>` to make them as a list and giving each one `href` attribute so by clicking on it you will see the paragraph conserned with each one. and all take the same class name `"tab-pane fade show " but differ in the `id=` attribute 
+      ```html
+      <div class="row feture-tabs" data-aos="fade-up">
+               <div class="col-lg-6">
+                 <h3>What Do We Aim?</h3>
+                 <!-- Tabs -->
+                 <ul class="nav nav-pills mb-3">
+                   <li>
+                     <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Abstract</a>
+                   </li>
+                   <li>
+                     <a class="nav-link" data-bs-toggle="pill" href="#tab2">Aspiration</a>
+                   </li>
+                   <li>
+                     <a class="nav-link" data-bs-toggle="pill" href="#tab3">Background</a>
+                   </li>
+                 </ul>
+                 <div class="tab-content">
+                   <div class="tab-pane fade show active" id="tab1">
+                     <p>This project focuses on some of the key trends and movements in our economy like adopting the sustainability mindset and contributing to the SDGs.
 
-The main idea of the project is to create a mobile application that facilitates contributing to achieving a sustainable future on the students-level through linking the students acts, skills and services to some organizations CSR programs, so that the organizations could benefit from the specific students’ skills in contributing to one or more of the SDG goals while offering their program and budget both of which would help the student learn and practice more and create a moral return system tailored for the students’ interest found on the app.
-</p>
-                <div class="d-flex align-items-center mb-2">
-                </div> 
-                <div class="d-flex align-items-center mb-2">                  
-                </div>                
-              </div><!-- End Tab 1 Content -->
-              <div class="tab-pane fade show" id="tab2">
-                <p>We are currently looking for interested organizations to create a sort of partnership with to launch the App where we will post their needs or requests for their CSR program and match it with the students of the most appropriate skills needed for the task at hand.
-                  All we need from said organizations is their support of the idea, mainly through trusting us with recruiting the right students for their CSR project and with creating a fair return system that fits the student’s interests.
-                  </p>
-                <div class="d-flex align-items-center mb-2">                  
-                </div>               
-                <div class="d-flex align-items-center mb-2">
-                </div>       
-              </div><!-- End Tab 2 Content -->
-              <div class="tab-pane fade show" id="tab3">
-                <p>This project is the work of a group of students in The faculty of commerce, English section, MIS major, as the graduation project for the final semester, the project is supervised by Prof. Ghada El Khayat.</p>
-                <div class="d-flex align-items-center mb-2">
-                </div>
-                <div class="d-flex align-items-center mb-2">
-                </div>
-              </div><!-- End Tab 3 Content -->
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <img src="assets/img/5.jpg" class="img-fluid" alt="">
-          </div>
-        </div>
-```
+           The main idea of the project is to create a mobile application that facilitates contributing to achieving a sustainable future on the students-level through linking the students acts, skills and services to some organizations CSR programs, so that the organizations could benefit from the specific students’ skills in contributing to one or more of the SDG goals while offering their program and budget both of which would help the student learn and practice more and create a moral return system tailored for the students’ interest found on the app. </p>
+                     <div class="d-flex align-items-center mb-2">
+                     </div> 
+                     <div class="d-flex align-items-center mb-2">                  
+                     </div>                
+                   </div><!-- End Tab 1 Content -->
+                   <div class="tab-pane fade show" id="tab2">
+                      <p> We are currently looking for interested organizations to create a sort of partnership with to launch the App where we will post their needs or requests for their CSR program and match it with the students of the most appropriate skills needed for the task at hand.
+                       All we need from said organizations is their support of the idea, mainly through trusting us with recruiting the right students for their CSR project and with creating a fair return system that fits the student’s interests. </p>
+                     <div class="d-flex align-items-center mb-2">                  
+                     </div>               
+                     <div class="d-flex align-items-center mb-2">
+                     </div>       
+                   </div><!-- End Tab 2 Content -->
+                   <div class="tab-pane fade show" id="tab3">
+                      <p> This project is the work of a group of students in The faculty of commerce, English section, MIS major, as the graduation project for the final semester, the project is supervised by Prof. Ghada El Khayat.</p>
+                     <div class="d-flex align-items-center mb-2">
+                   </div>
+                   <div class="d-flex align-items-center mb-2">
+                   </div>
+                 </div><!-- End Tab 3 Content -->
+               </div>
+             </div>
+             <div class="col-lg-6">
+               <img src="assets/img/5.jpg" class="img-fluid" alt="">
+             </div>
+           </div>
+      ```
 - 	F.A.Q section
     - it is divided to 2 containars (which is the lits) one at the right and one at the left, in each one it is divided to 3 containers the we use a `<buton>` with a tittle of the FAQ question in each one of them
  ```html
@@ -431,55 +429,56 @@ The main idea of the project is to create a mobile application that facilitates 
 ``` 
 - 	footer section
     - it consist of 2 containers above each other; the upper one consist of 3 continers ; the left one for the Slog , the miidle for the intro to go to another pages by using `href` attribute in `<a>` , the right one for the contact us by using `<strong>`
-```html
- <div class="footer-top">
-      <div class="container">
-        <div class="row gy-4">
-          <div class="col-lg-5 col-md-12 footer-info">
-            <a href="index.html" class="logo d-flex align-items-center">
-              <img src="assets/img/B2-0١.png" alt="">
-              <span>B17</span>
-            </a>
-            <p>There is no limit when it comes to hard work, together we might achive all the 17 goals.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      ```html
+       <div class="footer-top">
+            <div class="container">
+              <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-info">
+                  <a href="index.html" class="logo d-flex align-items-center">
+                    <img src="assets/img/B2-0١.png" alt="">
+                    <span>B17</span>
+                  </a>
+                  <p>There is no limit when it comes to hard work, together we might achive all the 17 goals.</p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="col-lg-2 col-6 footer-links">
+                  <h4>Intro</h4>
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+                    <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                  <h4>Contact Us</h4>
+                  <p>             
+                    <strong>Location:</strong> Alexandria, Eg<br> <br>  
+                    <strong>Phone:</strong> +20 151 282 3030<br>
+                    <strong>Email:</strong> B17@gmail.com<br>
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Intro</h4>
-            <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-            <h4>Contact Us</h4>
-            <p>             
-              <strong>Location:</strong> Alexandria, Eg<br> <br>  
-              <strong>Phone:</strong> +20 151 282 3030<br>
-              <strong>Email:</strong> B17@gmail.com<br>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-```
-    the lower one 
-```html
-<div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>B17</span></strong>. All Rights Reserved
-      </div>
- ```
+      ```
+    - the lower one 
+      ```html
+      <div class="container">
+            <div class="copyright">
+              &copy; Copyright <strong><span>B17</span></strong>. All Rights Reserved
+            </div>
+       ```
 
-# Chp3 (registration)
-## `register.html`
+# Chp3 
+## registration
+   ### 3.1. `register.html`
   - background section 
     - here we use `<ul>` list and in it we use `<li>` empty to make the background animation and a `<div>` containing the class `"container"` to wirte the form body in it
   ```html
@@ -552,30 +551,29 @@ The main idea of the project is to create a mobile application that facilitates 
                   </div>
           </div>
 ```
-## `login.html`
+   ### 3.2. `login.html`
   the same code like the `registration.html` with tha same idea about the background and the form;exept for 
   - Login with section 
     - here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
-  ```html
-  <a href="index.html" class="btn btn-google btn-user btn-with ">
-     <i class="fab fa-google fa-fw"></i> Login with Google
-  </a>
-  <a href="index.html" class="btn btn-facebook btn-user btn-with">
-     <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
-  </a>
- ```
-     this links lead to `forget-password.html` page and `Create an Account!` leads to `register.html
- ```html
-<div>
-   <a class="small mr-2" href="forgot-password.html">Forgot Password?</a>
+      ```html
+       <a href="index.html" class="btn btn-google btn-user btn-with ">
+         <i class="fab fa-google fa-fw"></i> Login with Google </a>
+       <a href="index.html" class="btn btn-facebook btn-user btn-with">
+         <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook </a>
+      ```
+    - this links lead to `forget-password.html` page and `Create an Account!` leads to `register.html
+      ```html
+      <div>
+         <a class="small mr-2" href="forgot-password.html">Forgot Password?</a>
+            </div>
+            <div >
+         <a class="small" href="register.html">Create an Account!</a>
       </div>
-      <div >
-   <a class="small" href="register.html">Create an Account!</a>
-</div>
-```
+      ```
 
-# Chp4 (Getting to start)
-## `blog.html`
+# Chp4 
+## Getting to start
+   ### 4.1. `blog.html`
   - header section
     - the same code like the navbar in the landing page exept for the breadcrumbs section that include the previous page / the current page
   ```html
@@ -620,13 +618,13 @@ The main idea of the project is to create a mobile application that facilitates 
       </div>
     </section>
 ```
-## `user_profile.html`
+   ### 4.2. `user_profile.html`
 
-## `org_prof.html`
+   ### 4.3. `org_prof.html`
   
-## `messages.html`
+   ### 4.4. `messages.html`
   - here is the code for the left side of the page consirmes with the the search box by using `<button>` with a`<i>`. 
-  ```html
+```html
 <div class="row no-gutters">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
               <div class="users-container">
@@ -641,7 +639,7 @@ The main idea of the project is to create a mobile application that facilitates 
                   </div>
                 </div>
 ```
-  - and the list of chats like this code show one of the chat 
+   - and the list of chats like this code show one of the chat 
 ```html
 <li class="person" data-chat="person1">
                     <div class="user">
