@@ -1,28 +1,30 @@
-# b17website
-> ## Chp1 (Introduction)
+# B17 website
+# Chapter 1
+## Introduction
  Here is an overview about the website folders and the purpose of each one;
-   - **b17** {Get started folder}
-     - `index.html`  landing page which consider the start and the first page the visitor will see
-     - `blog.html`  homepage after the visitor get to sign in 
-   - **css** {a stylings folders}
-   - **img** {contain all the images used in the code}
-   - **js** {contain files written by javascripte language to implement complex features}
-   - **node_modules** {save all downloaded packages from npm}
-   - `register.html` {registeration page for sign up or login}
-   - `login.html` {login page if you already have an account}
-   - `forgot-password.html` {reset password page incase user forget the password in login process}
-   - `setting.html` {setting page for changing any personal data}
-   - `change-password.html` {for changing passowrd from setting page}
-   - `user_profile.html` {profile page for signed individual user} 
-   - `org_prof.html` {profile page for signed organizations}
-   - `messages.html` {message chats page}
+ -  **b17** {Get started folder}
+      - `index.html`  landing page which consider the start and the first page the visitor will see
+      - `blog.html`  homepage after the visitor get to sign in 
+ - **css** {a stylings folders}
+ - **img** {contain all the images used in the code}
+ - **js** {contain files written by javascripte language to implement complex features}
+ - **node_modules** {save all downloaded packages from npm}
+ - `register.html` {registeration page for sign up or login}
+ - `login.html` {login page if you already have an account}
+ - `forgot-password.html` {reset password page incase user forget the password in login process}
+ - `setting.html` {setting page for changing any personal data}
+ - `change-password.html` {for changing passowrd from setting page}
+ - `user_profile.html` {profile page for signed individual user} 
+ - `org_prof.html` {profile page for signed organizations}
+ - `messages.html` {message chats page}
 
   ![project_all](https://user-images.githubusercontent.com/100317841/170894084-433713e6-cbbd-4645-8a34-1899772f0ad7.png)
 
-> ## Chp2 (Landing page)
- - > ### `index.html`
-  #### header section (navigation bar) 
-  it contain the navigation bar for the website pages ; we use a `<header>` in it we use 2 containers one for the logo by using `<a>` with `href` attribute so when we click on it, it goes to the landing page and the other container uses `<nav>` in it we use `<ul>` and `<li>` to make a list for the nav contents
+# Chapter 2 
+## Landing page
+   ### 3.1. `index.html`
+- 	header section (navigation bar) 
+    - it contain the navigation bar for the website pages ; we use a `<header>` in it we use 2 containers one for the logo by using `<a>` with `href` attribute so when we click on it, it goes to the landing page and the other container uses `<nav>` in it we use `<ul>` and `<li>` to make a list for the nav contents
   ```html
 <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
@@ -44,8 +46,8 @@
     </div>
   </header>
   ```
-  #### Main section 
-   the first page in the landing page or can be accessed by clicking on **Main** in navbar. here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
+- 	Main section 
+    - the first page in the landing page or can be accessed by clicking on **Main** in navbar. here we make a class name `"container"` that hold the whole page, containing 2 classes in it, the first one is `"col-lg-6 d-flex flex-column justify-content-center"` class that hold the left part of the page, `"col-lg-6 hero-img"` class that hold the right part of the page.
    ```html
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
@@ -70,8 +72,8 @@
   </section>
 
 ```
-  #### About section
-  this section can be accessed by scrolling down or click on **About** button on navbar. it conatins 2 containers; one for the right side of the page that use `<img>` ,and the other one for the left side that uses `<h3>` `<h2>` `<p>` to write the about idea. 
+- 	About section
+    - this section can be accessed by scrolling down or click on **About** button on navbar. it conatins 2 containers; one for the right side of the page that use `<img>` ,and the other one for the left side that uses `<h3>` `<h2>` `<p>` to write the about idea. 
   ```html
 <section id="about" class="about">
       <div class="container" data-aos="fade-up">
@@ -90,8 +92,8 @@
       </div>
     </section>
 ```
-#### our value section
-  here its divided to 3 containers in each one we use an `<img>` and `<p>` to add an image and a paragraph to it
+- 	our value section
+    - here its divided to 3 containers in each one we use an `<img>` and `<p>` to add an image and a paragraph to it
   ```html
 <section id="values" class="values">
       <div class="container" data-aos="fade-up">
@@ -125,15 +127,15 @@
       </div>
     </section>
 ```
-#### featurs section
-  here its divided to 3 containers; the fisrt one is `"section-header"` for the tittle 
- ```html
+- 	featurs section
+    - here its divided to 3 containers; the fisrt one is `"section-header"` for the tittle 
+```html
 <header class="section-header">
           <h2>Features</h2>
           <p> Get To Know Some Of Our Features</p>
         </header>
 ```
-  second one is `"row"` that is divide to two part one contining the right side of the pages that contains the checked boxes and the left side that contains the image
+   second one is `"row"` that is divide to two part one contining the right side of the pages that contains the checked boxes and the left side that contains the image
  ```html
  <div class="row">
           <div class="col-lg-6">
@@ -181,7 +183,7 @@
           </div>
         </div>
 ```
-  third one is `"row feture-tabs"` that is divided to 3 conatiners `ABSTRACT` `ASPIRATION` `BACKGROUND` by using `<ul>` `<li>` to make them as a list and giving each one `href` attribute so by clicking on it you will see the paragraph conserned with each one. and all take the same class name `"tab-pane fade show " but differ in the `id=` attribute 
+   third one is `"row feture-tabs"` that is divided to 3 conatiners `ABSTRACT` `ASPIRATION` `BACKGROUND` by using `<ul>` `<li>` to make them as a list and giving each one `href` attribute so by clicking on it you will see the paragraph conserned with each one. and all take the same class name `"tab-pane fade show " but differ in the `id=` attribute 
  ```html
 <div class="row feture-tabs" data-aos="fade-up">
           <div class="col-lg-6">
@@ -232,8 +234,8 @@ The main idea of the project is to create a mobile application that facilitates 
           </div>
         </div>
 ```
-#### F.A.Q section
-  it is divided to 2 containars (which is the lits) one at the right and one at the left, in each one it is divided to 3 containers the we use a `<buton>` with a tittle of the FAQ question in each one of them
+- 	F.A.Q section
+    - it is divided to 2 containars (which is the lits) one at the right and one at the left, in each one it is divided to 3 containers the we use a `<buton>` with a tittle of the FAQ question in each one of them
  ```html
 <section id="faq" class="faq">
       <div class="container" data-aos="fade-up">
@@ -328,8 +330,8 @@ The main idea of the project is to create a mobile application that facilitates 
       </div>
     </section>
 ```
-#### Getstarted section 
-  this section for the login and registration by clicking on the Getstarted link either for the student or the organization by using `<href>` attribute . here it is consist of one container holding 2 other containers one for the student access abd the other for the organization 
+- 	Getstarted section 
+    - this section for the login and registration by clicking on the Getstarted link either for the student or the organization by using `<href>` attribute . here it is consist of one container holding 2 other containers one for the student access abd the other for the organization 
  ```html
 <section id="getstarted">
 <section id="recent-blog-posts" class="recent-blog-posts"> 
@@ -357,8 +359,8 @@ The main idea of the project is to create a mobile application that facilitates 
 </section>
  </section>
 ```
- ####  Contact section
- it is divided to 2 containers, the right one like a form container and the left one consist of 4 boxes 
+- 	Contact section
+    - it is divided to 2 containers, the right one like a form container and the left one consist of 4 boxes 
  ```html
 <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
@@ -427,8 +429,8 @@ The main idea of the project is to create a mobile application that facilitates 
       </div>
     </section>
 ``` 
-####  footer section
-it consist of 2 containers above each other; the upper one consist of 3 continers ; the left one for the Slog , the miidle for the intro to go to another pages by using `href` attribute in `<a>` , the right one for the contact us by using `<strong>`
+- 	footer section
+    - it consist of 2 containers above each other; the upper one consist of 3 continers ; the left one for the Slog , the miidle for the intro to go to another pages by using `href` attribute in `<a>` , the right one for the contact us by using `<strong>`
 ```html
  <div class="footer-top">
       <div class="container">
@@ -468,7 +470,7 @@ it consist of 2 containers above each other; the upper one consist of 3 continer
       </div>
     </div>
 ```
-the lower one 
+    the lower one 
 ```html
 <div class="container">
       <div class="copyright">
@@ -476,10 +478,10 @@ the lower one
       </div>
  ```
 
-> ## Chp3 (registration)
- - > ### `register.html`
-  #### background section 
-  here we use `<ul>` list and in it we use `<li>` empty to make the background animation and a `<div>` containing the class `"container"` to wirte the form body in it
+# Chp3 (registration)
+## `register.html`
+  - background section 
+    - here we use `<ul>` list and in it we use `<li>` empty to make the background animation and a `<div>` containing the class `"container"` to wirte the form body in it
   ```html
 <div class="area" >
         <ul class="circles">
@@ -498,9 +500,9 @@ the lower one
         </ul>
     </div>
 ```
-  #### form section 
-it is divided to 2 classes the first one containing the image in the left side of the form and the second one responsiple for the right side of the form; in it we make a `<form>` with class name `"user"` 
-in the form there is 6 containers with the same class name `"form-group"` with an `<input>` to take the data from the user with the same class attribute but differ in the placholder according to the data type that will be entered
+  - form section 
+    - it is divided to 2 classes the first one containing the image in the left side of the form and the second one responsiple for the right side of the form; in it we make a `<form>` with class name `"user"` 
+    - in the form there is 6 containers with the same class name `"form-group"` with an `<input>` to take the data from the user with the same class attribute but differ in the placholder according to the data type that will be entered
 ```html
 <div class="row">
               <div class="col-lg-5 d-none d-lg-block bg-register-image"></div>
@@ -550,10 +552,10 @@ in the form there is 6 containers with the same class name `"form-group"` with a
                   </div>
           </div>
 ```
- - > ### `login.html`
+## `login.html`
   the same code like the `registration.html` with tha same idea about the background and the form;exept for 
-  #### Login with section 
-here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
+  - Login with section 
+    - here we use `<a>`with an `<href>` attribute to link the button with a spacefic page as login by facebook or google or after creating an account 
   ```html
   <a href="index.html" class="btn btn-google btn-user btn-with ">
      <i class="fab fa-google fa-fw"></i> Login with Google
@@ -562,7 +564,7 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
      <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
   </a>
  ```
- this links lead to `forget-password.html` page and `Create an Account!` leads to `register.html
+     this links lead to `forget-password.html` page and `Create an Account!` leads to `register.html
  ```html
 <div>
    <a class="small mr-2" href="forgot-password.html">Forgot Password?</a>
@@ -572,10 +574,10 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
 </div>
 ```
 
-> ## Chp4 (Getting to start)
- - > ### `blog.html`
-  #### header section
-  the same code like the navbar in the landing page exept for the breadcrumbs section that include the previous page / the current page
+# Chp4 (Getting to start)
+## `blog.html`
+  - header section
+    - the same code like the navbar in the landing page exept for the breadcrumbs section that include the previous page / the current page
   ```html
 <section class="breadcrumbs">
       <div class="container">
@@ -587,8 +589,8 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
       </div>
     </section>
 ```
-  #### SDGS section
-  here display the SDGS lika a swiper wrapper by putting them in a class nmae `"clients-slider swiper"` in the the images of the SDGS 
+  - SDGS section
+    - here display the SDGS lika a swiper wrapper by putting them in a class nmae `"clients-slider swiper"` in the the images of the SDGS 
   ```html
 <section id="clients" class="clients">
       <div class="container" data-aos="fade-up">
@@ -618,12 +620,12 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
       </div>
     </section>
 ```
- - > ### `user_profile.html`
+## `user_profile.html`
 
- - > ### `org_prof.html`
+## `org_prof.html`
   
- - > ### `messages.html`
-    here is the code for the left side of the page consirmes with the the search box by using `<button>` with a`<i>`. 
+## `messages.html`
+  - here is the code for the left side of the page consirmes with the the search box by using `<button>` with a`<i>`. 
   ```html
 <div class="row no-gutters">
             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-3 col-3">
@@ -639,7 +641,7 @@ here we use `<a>`with an `<href>` attribute to link the button with a spacefic p
                   </div>
                 </div>
 ```
-and the list of chats like this code show one of the chat 
+  - and the list of chats like this code show one of the chat 
 ```html
 <li class="person" data-chat="person1">
                     <div class="user">
