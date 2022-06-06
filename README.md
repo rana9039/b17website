@@ -476,7 +476,7 @@
             </div>
        ```
 
-# Chp3 
+# Chapter 3 
 ## registration
    ### 3.1. `register.html`
   - background section 
@@ -571,7 +571,7 @@
       </div>
       ```
 
-# Chp4 
+# Chapter 4 
 ## Getting to start
    ### 4.1. `blog.html`
   - header section
